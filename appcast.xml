@@ -8,7 +8,7 @@
     
     <item>
       <title>Version 1.8.0</title>
-      <pubDate>Wed, 18 Dec 2024 15:00:00 -0500</pubDate>
+      <pubDate>Wed, 18 Dec 2024 15:30:00 -0500</pubDate>
       <sparkle:version>180</sparkle:version>
       <sparkle:shortVersionString>1.8.0</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
@@ -23,9 +23,9 @@
         </ul>
       ]]></description>
       <enclosure 
-        url="https://github.com/acissa/NewRelicMonitor-Releases/releases/download/v1.8.0/NewRelicMonitor-1.8.0.zip"
-        sparkle:edSignature="SIGNATURE_PLACEHOLDER"
-        length="FILE_SIZE_PLACEHOLDER"
+        url="https://github.com/acissa/NewRelicMonitor-Releases/releases/download/v1.8.0/NewRelicMonitor-v1.8.0.zip"
+        sparkle:edSignature="MQpuNV118JVA9V4nDMnNz2QnvzOUtIJFMWh198vGT8nAyphnFe+RqF4GvbCJ0lIqyHwaF51ueQ8YiYa+4RMmAw=="
+        length="4602823"
         type="application/octet-stream" />
     </item>
     
