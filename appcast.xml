@@ -7,8 +7,29 @@
     <language>en</language>
     
     <item>
+      <title>Version 1.9.0</title>
+      <pubDate>Thu, 19 Dec 2024 09:00:00 -0500</pubDate>
+      <sparkle:version>190</sparkle:version>
+      <sparkle:shortVersionString>1.9.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h2>What's New in v1.9.0</h2>
+        <ul>
+          <li><strong>Favorites Filter</strong> - Show only starred entities with one click</li>
+          <li><strong>Usage Tracking</strong> - Anonymous analytics via Google Sheets for IT admins</li>
+          <li><strong>Finder-style Icons</strong> - Classic macOS view toggle icons</li>
+        </ul>
+      ]]></description>
+      <enclosure 
+        url="https://github.com/acissa/NewRelicMonitor-Releases/releases/download/v1.9.0/NewRelicMonitor-1.9.0.zip"
+        sparkle:edSignature="S5N5nzbGa8iP81ohnsJGAKi5AYe0e12q19RQFebUOlRjvSRf3H1ct1B87IYXlFibiFpTsHLCPy8rPHxvwOkDDA=="
+        length="4611321"
+        type="application/octet-stream" />
+    </item>
+    
+    <item>
       <title>Version 1.8.0</title>
-      <pubDate>Wed, 18 Dec 2024 15:45:00 -0500</pubDate>
+      <pubDate>Wed, 18 Dec 2024 15:00:00 -0500</pubDate>
       <sparkle:version>180</sparkle:version>
       <sparkle:shortVersionString>1.8.0</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
@@ -18,14 +39,13 @@
           <li><strong>Compact Header</strong> - Reduced whitespace with more content visible</li>
           <li><strong>View Toggle in Header</strong> - Switch between list/grid directly from header</li>
           <li><strong>External Status Integration</strong> - Service status now in header</li>
-          <li><strong>Compact Entity Cards</strong> - Smaller footer text for cleaner look</li>
           <li><strong>Sparkle Updates Tested</strong> - Auto-update system fully verified</li>
         </ul>
       ]]></description>
       <enclosure 
-        url="https://github.com/acissa/NewRelicMonitor-Releases/releases/download/v1.8.0/NewRelicMonitor-v1.8.0.zip"
-        sparkle:edSignature="hddeDz1yinYwCUpgN0ycQ7T+S32eJshZymWycP41E+fbTgEc3avlBPp56xqwQq+sRwzCaJSE0TpHuiS+FIlmBg=="
-        length="4594324"
+        url="https://github.com/acissa/NewRelicMonitor-Releases/releases/download/v1.8.0/NewRelicMonitor-1.8.0.zip"
+        sparkle:edSignature="SIGNATURE_PLACEHOLDER"
+        length="FILE_SIZE_PLACEHOLDER"
         type="application/octet-stream" />
     </item>
     
