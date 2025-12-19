@@ -7,6 +7,25 @@
     <language>en</language>
     
     <item>
+      <title>Version 1.9.2</title>
+      <pubDate>Thu, 19 Dec 2024 12:00:00 -0500</pubDate>
+      <sparkle:version>192</sparkle:version>
+      <sparkle:shortVersionString>1.9.2</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h2>What's New in v1.9.2</h2>
+        <ul>
+          <li><strong>Test Release</strong> - Verifying Sparkle update mechanism works correctly</li>
+        </ul>
+      ]]></description>
+      <enclosure 
+        url="https://github.com/acissa/NewRelicMonitor-Releases/releases/download/v1.9.2/NewRelicMonitor-v1.9.2-unsigned.zip"
+        sparkle:edSignature="XKmYUa48QpVyfZO//yKGLKH66AU9YGkW6f914f3zMnElTgvG42x54+BQEt/Qkim/xfPu2MnE4FhvWJSaKBBoAw=="
+        length="4644695"
+        type="application/octet-stream" />
+    </item>
+    
+    <item>
       <title>Version 1.9.1</title>
       <pubDate>Thu, 19 Dec 2024 11:15:00 -0500</pubDate>
       <sparkle:version>191</sparkle:version>
