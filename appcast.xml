@@ -7,6 +7,26 @@
     <language>en</language>
     
     <item>
+      <title>Version 1.9.1</title>
+      <pubDate>Thu, 19 Dec 2024 11:15:00 -0500</pubDate>
+      <sparkle:version>191</sparkle:version>
+      <sparkle:shortVersionString>1.9.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h2>What's New in v1.9.1</h2>
+        <ul>
+          <li><strong>Quick Notification Settings</strong> - Access notification preferences directly from the header</li>
+          <li><strong>Favorites-Only Notifications</strong> - Option to only receive alerts for starred entities</li>
+        </ul>
+      ]]></description>
+      <enclosure 
+        url="https://github.com/acissa/NewRelicMonitor-Releases/releases/download/v1.9.1/NewRelicMonitor-v1.9.1-unsigned.zip"
+        sparkle:edSignature="oxTmrxBU7LuuypzlT9VukwrrRuut8EAyHsZhJs5EGmKeajpkM431DFgtDDp3SCmGOF2E1y0fQihqiiXqLTQzAA=="
+        length="4641850"
+        type="application/octet-stream" />
+    </item>
+    
+    <item>
       <title>Version 1.9.0</title>
       <pubDate>Thu, 19 Dec 2024 09:00:00 -0500</pubDate>
       <sparkle:version>190</sparkle:version>
