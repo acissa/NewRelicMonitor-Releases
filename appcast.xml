@@ -7,6 +7,29 @@
     <language>en</language>
     
     <item>
+      <title>Version 1.9.1.4</title>
+      <pubDate>Thu, 02 Jan 2025 13:25:00 -0500</pubDate>
+      <sparkle:version>1914</sparkle:version>
+      <sparkle:shortVersionString>1.9.1.4</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h2>What's New in v1.9.1.4</h2>
+        <ul>
+          <li><strong>Test Fixes</strong> - Fixed flaky tests for release validation</li>
+          <li><strong>Version Format</strong> - Updated version regex to accept X.Y.Z.W format</li>
+          <li><strong>Network Timing</strong> - Added retry logic for network-dependent tests</li>
+          <li><strong>Documentation</strong> - Updated help with current New Relic API key instructions</li>
+          <li><strong>Build Improvements</strong> - Updated gitignore and build scripts</li>
+        </ul>
+      ]]></description>
+      <enclosure 
+        url="https://github.com/vitalsource/New-Relic-Dashboard/releases/download/v1.9.1.4/NewRelicMonitor-v1.9.1.4-unsigned.zip"
+        sparkle:edSignature="+z67IInRi08Vx9JyB5FI855q0oBdK0bgAI47Pt4I+ngzKN6UOul+/4wFUxal+eY1GhlCT5h6UUOMiyZk6b8hBA=="
+        length="4646081"
+        type="application/octet-stream" />
+    </item>
+    
+    <item>
       <title>Version 1.9.1.3</title>
       <pubDate>Thu, 19 Dec 2024 19:30:00 -0500</pubDate>
       <sparkle:version>1913</sparkle:version>
