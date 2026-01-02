@@ -7,6 +7,27 @@
     <language>en</language>
     
     <item>
+      <title>Version 1.9.1.5</title>
+      <pubDate>Fri, 03 Jan 2025 10:00:00 -0500</pubDate>
+      <sparkle:version>1915</sparkle:version>
+      <sparkle:shortVersionString>1.9.1.5</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h2>What's New in v1.9.1.5</h2>
+        <ul>
+          <li><strong>Release Automation</strong> - Added unified release.sh script for streamlined releases</li>
+          <li><strong>Version Consistency</strong> - Info.plist now updated automatically during releases</li>
+          <li><strong>About Section Fix</strong> - Version now correctly shows after auto-update</li>
+        </ul>
+      ]]></description>
+      <enclosure 
+        url="https://github.com/acissa/NewRelicMonitor-Releases/releases/download/v1.9.1.5/NewRelicMonitor-v1.9.1.5-unsigned.zip"
+        sparkle:edSignature="AShMdWOFTyDHKdBabFfc4/husgtpY1LCN2BZsU1X6U/NNGighsI4JrME3rgAewzLggcxYFL38js18xuzJKZ9Bg=="
+        length="4646079"
+        type="application/octet-stream" />
+    </item>
+    
+    <item>
       <title>Version 1.9.1.4</title>
       <pubDate>Thu, 02 Jan 2025 13:25:00 -0500</pubDate>
       <sparkle:version>1914</sparkle:version>
