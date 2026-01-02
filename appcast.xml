@@ -23,7 +23,7 @@
         </ul>
       ]]></description>
       <enclosure 
-        url="https://github.com/vitalsource/New-Relic-Dashboard/releases/download/v1.9.1.4/NewRelicMonitor-v1.9.1.4-unsigned.zip"
+        url="https://github.com/acissa/NewRelicMonitor-Releases/releases/download/v1.9.1.4/NewRelicMonitor-v1.9.1.4-unsigned.zip"
         sparkle:edSignature="+z67IInRi08Vx9JyB5FI855q0oBdK0bgAI47Pt4I+ngzKN6UOul+/4wFUxal+eY1GhlCT5h6UUOMiyZk6b8hBA=="
         length="4646081"
         type="application/octet-stream" />
