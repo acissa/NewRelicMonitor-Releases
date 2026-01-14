@@ -7,6 +7,28 @@
     <language>en</language>
     
     <item>
+      <title>Version 1.9.1.6</title>
+      <pubDate>Tue, 14 Jan 2026 12:00:00 -0500</pubDate>
+      <sparkle:version>19116</sparkle:version>
+      <sparkle:shortVersionString>1.9.1.6</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h2>What's New in v1.9.1.6</h2>
+        <ul>
+          <li><strong>Alert Suppression</strong> - Hide unwanted alerts from specific conditions</li>
+          <li><strong>Smart Notifications</strong> - Suppressed alerts don't trigger desktop notifications</li>
+          <li><strong>Menu Bar Integration</strong> - Badge count excludes suppressed alerts</li>
+          <li><strong>Preferences Management</strong> - View and manage suppressed conditions in settings</li>
+        </ul>
+      ]]></description>
+      <enclosure 
+        url="https://github.com/acissa/NewRelicMonitor-Releases/releases/download/v1.9.1.6/NewRelicMonitor-v1.9.1.6-unsigned.zip"
+        sparkle:edSignature="eptyKcu/OpPvdFzoregyjL5qzD9h0LOegPsxcLuKgwdY3PiJTJz/RRdsB0AxXYwNYt6KUNdMAzpoaxnMFBWzDw=="
+        length="4683911"
+        type="application/octet-stream" />
+    </item>
+    
+    <item>
       <title>Version 1.9.1.5</title>
       <pubDate>Fri, 03 Jan 2025 10:00:00 -0500</pubDate>
       <sparkle:version>1915</sparkle:version>
