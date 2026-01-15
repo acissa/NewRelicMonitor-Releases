@@ -7,6 +7,26 @@
     <language>en</language>
     
     <item>
+      <title>Version 1.9.1.8</title>
+      <pubDate>Tue, 14 Jan 2026 20:15:00 -0500</pubDate>
+      <sparkle:version>19118</sparkle:version>
+      <sparkle:shortVersionString>1.9.1.8</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h2>What's New in v1.9.1.8</h2>
+        <ul>
+          <li><strong>Update Check on Launch</strong> - App now checks for updates every time it starts</li>
+          <li><strong>Faster Updates</strong> - Users get new versions immediately on restart</li>
+        </ul>
+      ]]></description>
+      <enclosure 
+        url="https://github.com/acissa/NewRelicMonitor-Releases/releases/download/v1.9.1.8/NewRelicMonitor-v1.9.1.8-unsigned.zip"
+        sparkle:edSignature="WP84mP7xfBl3sTZuOiraROWE0haszJHjrVdKePKY6QTpxQtyz5lNbVOFIlTsRb0wy/CGdLHQZ81CqNctxb03Dw=="
+        length="4685639"
+        type="application/octet-stream" />
+    </item>
+    
+    <item>
       <title>Version 1.9.1.7</title>
       <pubDate>Tue, 14 Jan 2026 14:00:00 -0500</pubDate>
       <sparkle:version>19117</sparkle:version>
