@@ -7,6 +7,27 @@
     <language>en</language>
     
     <item>
+      <title>Version 1.9.1.7</title>
+      <pubDate>Tue, 14 Jan 2026 14:00:00 -0500</pubDate>
+      <sparkle:version>19117</sparkle:version>
+      <sparkle:shortVersionString>1.9.1.7</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h2>What's New in v1.9.1.7</h2>
+        <ul>
+          <li><strong>Usage Analytics</strong> - Track automatic Sparkle update checks</li>
+          <li><strong>New Event Type</strong> - auto_update_check now logged daily</li>
+          <li><strong>Explicit Check Interval</strong> - SUScheduledCheckInterval set to 24 hours</li>
+        </ul>
+      ]]></description>
+      <enclosure 
+        url="https://github.com/acissa/NewRelicMonitor-Releases/releases/download/v1.9.1.7/NewRelicMonitor-v1.9.1.7-unsigned.zip"
+        sparkle:edSignature="ylbU7XvUcEWR7G0HY4iB+/HIxnpvrEm91XGljPMQV7S3i7h7JiFa+tzNmXqSr7pouMPDuxDdzccsKILHOS1XDQ=="
+        length="4684810"
+        type="application/octet-stream" />
+    </item>
+    
+    <item>
       <title>Version 1.9.1.6</title>
       <pubDate>Tue, 14 Jan 2026 12:00:00 -0500</pubDate>
       <sparkle:version>19116</sparkle:version>
