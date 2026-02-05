@@ -5,6 +5,26 @@
     <link>https://github.com/acissa/NewRelicMonitor-Releases</link>
     <description>Application updates for New Relic Monitor</description>
     <language>en</language>
+
+    <item>
+      <title>Version 1.9.1.9</title>
+      <pubDate>Thu, 05 Feb 2026 13:59:22 +0000</pubDate>
+      <sparkle:version>1919</sparkle:version>
+      <sparkle:shortVersionString>1.9.1.9</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h2>What's New in v1.9.1.9</h2>
+        <ul>
+          <li>See GitHub release notes for details</li>
+        </ul>
+      ]]></description>
+      <enclosure 
+        url="https://github.com/acissa/NewRelicMonitor-Releases/releases/download/v1.9.1.9/NewRelicMonitor-v1.9.1.9-unsigned.zip"
+        sparkle:edSignature="rewCZpyc8QkY/kFHO42M1J8mhOXYjVk0RNhT5hmQxqkpkuJ7zCfmYDW1kfYEt3I4rFO+L+6NggDZ35WhMaQiDg=="
+        length="4695778"
+        type="application/octet-stream" />
+    </item>
+    
     
     <item>
       <title>Version 1.9.1.8</title>
