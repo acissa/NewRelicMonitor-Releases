@@ -9,23 +9,24 @@
     <item>
       <title>Version 1.9.2</title>
       <pubDate>Thu, 12 Feb 2026 16:29:01 +0000</pubDate>
-      <sparkle:version>192</sparkle:version>
+      <sparkle:version>1920</sparkle:version>
       <sparkle:shortVersionString>1.9.2</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
         <h2>What's New in v1.9.2</h2>
         <ul>
-          <li>See GitHub release notes for details</li>
+          <li>Codebase cleanup and code quality improvements</li>
+          <li>Fixed force unwraps and deprecated API usage</li>
+          <li>Removed tracked build artifacts from repository</li>
         </ul>
       ]]></description>
       <enclosure 
         url="https://github.com/acissa/NewRelicMonitor-Releases/releases/download/v1.9.2/NewRelicMonitor-v1.9.2-unsigned.zip"
-        sparkle:edSignature="3sHCYPh8CrWJjg6VB9sJF93BjPO2Ggil6q5w3Jgn0v5bkUlTL04ewQ5zhYAW+/SWxWcttozh5a2X8YOjh3+KBA=="
-        length="4697452"
+        sparkle:edSignature="quPjT0Ac4ZhYhqaZAK/V88fZP7N4wlkjXVxvN+H5bx5b0ffNfA5f3jkfsc8iHnvEso/H47os9W4fDdt9lcvjBg=="
+        length="4697446"
         type="application/octet-stream" />
     </item>
     
-
     <item>
       <title>Version 1.9.1.9</title>
       <pubDate>Thu, 05 Feb 2026 13:59:22 +0000</pubDate>
