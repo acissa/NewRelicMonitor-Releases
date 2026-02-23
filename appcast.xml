@@ -7,6 +7,39 @@
     <language>en</language>
 
     <item>
+      <title>Version 2.1.0</title>
+      <pubDate>Mon, 23 Feb 2026 13:00:00 +0000</pubDate>
+      <sparkle:version>2100</sparkle:version>
+      <sparkle:shortVersionString>2.1.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h2>What's New in v2.1.0</h2>
+        <p>Major internal improvements for stability, performance, and reliability since v1.9.2.</p>
+        <h3>Architecture (v2.0.0)</h3>
+        <ul>
+          <li><strong>API Client Refactor</strong> - NewRelicAPIClient reduced from 2,365 to ~500 lines; delegates to focused service classes</li>
+          <li><strong>UI Performance</strong> - Fewer SwiftUI re-renders during searches and filter changes</li>
+          <li><strong>Memory Management</strong> - Entity cache now enforces 5-minute TTL and 500-entry max with LRU eviction</li>
+          <li><strong>Thread Safety</strong> - GraphQL rate limiting protected by NSLock; EntityService marked @MainActor</li>
+          <li><strong>Error Visibility</strong> - All silent failures now log context for debugging</li>
+        </ul>
+        <h3>Service Hardening (v2.1.0)</h3>
+        <ul>
+          <li><strong>Credential Handling</strong> - Safer nil/empty API key handling across all services</li>
+          <li><strong>Notification Reliability</strong> - More robust permission checking and delivery</li>
+          <li><strong>Dynamic Versioning</strong> - About window always shows the correct version</li>
+          <li><strong>Expanded Tests</strong> - 690+ lines of new unit test coverage</li>
+        </ul>
+        <p>No configuration changes required. All existing settings and API keys are preserved.</p>
+      ]]></description>
+      <enclosure
+        url="https://github.com/acissa/NewRelicMonitor-Releases/releases/download/v2.1.0/NewRelicMonitor-v2.1.0-unsigned.zip"
+        sparkle:edSignature="OgD0Fe9qORjzudSWdeyQMx+hVmVVaBAYrM0IV9yKS0hMxy5+AylUFLkkYt2ZJKu6WpT9Z/ePb1PkOcN56tn4DA=="
+        length="4662408"
+        type="application/octet-stream" />
+    </item>
+
+    <item>
       <title>Version 1.9.2</title>
       <pubDate>Thu, 12 Feb 2026 16:29:01 +0000</pubDate>
       <sparkle:version>1920</sparkle:version>
@@ -27,6 +60,7 @@
         type="application/octet-stream" />
     </item>
     
+
     <item>
       <title>Version 1.9.1.9</title>
       <pubDate>Thu, 05 Feb 2026 13:59:22 +0000</pubDate>
@@ -215,28 +249,6 @@
         url="https://github.com/acissa/NewRelicMonitor-Releases/releases/download/v1.9.0/NewRelicMonitor-1.9.0.zip"
         sparkle:edSignature="uLA8jrq7EdqtWr7fibZmhbAZ1prWO1xl4Rg0D6fyK5rUNKKYTfNLP1QMICoghcYMc0oS2pFQ43wuB6P033IrAg=="
         length="2812031"
-        type="application/octet-stream" />
-    </item>
-    
-    <item>
-      <title>Version 1.8.0</title>
-      <pubDate>Wed, 18 Dec 2024 15:00:00 -0500</pubDate>
-      <sparkle:version>180</sparkle:version>
-      <sparkle:shortVersionString>1.8.0</sparkle:shortVersionString>
-      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[
-        <h2>What's New in v1.8.0</h2>
-        <ul>
-          <li><strong>Compact Header</strong> - Reduced whitespace with more content visible</li>
-          <li><strong>View Toggle in Header</strong> - Switch between list/grid directly from header</li>
-          <li><strong>External Status Integration</strong> - Service status now in header</li>
-          <li><strong>Sparkle Updates Tested</strong> - Auto-update system fully verified</li>
-        </ul>
-      ]]></description>
-      <enclosure 
-        url="https://github.com/acissa/NewRelicMonitor-Releases/releases/download/v1.8.0/NewRelicMonitor-1.8.0.zip"
-        sparkle:edSignature="SIGNATURE_PLACEHOLDER"
-        length="FILE_SIZE_PLACEHOLDER"
         type="application/octet-stream" />
     </item>
     
