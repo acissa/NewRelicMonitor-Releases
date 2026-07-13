@@ -7,6 +7,39 @@
     <language>en</language>
 
     <item>
+      <title>Version 2.3.0</title>
+      <pubDate>Mon, 13 Jul 2026 18:38:35 +0000</pubDate>
+      <sparkle:version>20300</sparkle:version>
+      <sparkle:shortVersionString>2.3.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h2>What's New in v2.3.0</h2>
+        <p>Two New Relic-native additions to the entity detail view, plus the per-entity alert suppression fix from v2.2.0.</p>
+        <h3>Errors (last hour)</h3>
+        <ul>
+          <li>APM detail views now list grouped application errors by class and message, with occurrence counts</li>
+          <li>Top 10 error groups ranked by count, with a header chip showing the total</li>
+        </ul>
+        <h3>Recent Deployments</h3>
+        <ul>
+          <li>APM detail views now show change-tracking deployment markers from the last 30 days</li>
+          <li>Each entry shows version, time, author, and a deep link into New Relic when available</li>
+        </ul>
+        <h3>Also included</h3>
+        <ul>
+          <li>Alert suppression now works per-alert instead of globally (from v2.2.0)</li>
+        </ul>
+        <p>No configuration changes required. All existing settings and API keys are preserved.</p>
+      ]]></description>
+      <enclosure
+        url="https://github.com/acissa/NewRelicMonitor-Releases/releases/download/v2.3.0/NewRelicMonitor-v2.3.0-unsigned.zip"
+        sparkle:edSignature="iwww0zDrXTzP9rke6F3xQaYeUkzxIIkqy3tbUHuvDyj7zsKUVQl+CKvPQl3JktnXYEncdPhn5oB2iZvCXFLYCQ=="
+        length="2948010"
+        type="application/octet-stream" />
+    </item>
+
+
+    <item>
       <title>Version 2.1.0</title>
       <pubDate>Mon, 23 Feb 2026 13:00:00 +0000</pubDate>
       <sparkle:version>2100</sparkle:version>
@@ -34,7 +67,7 @@
       ]]></description>
       <enclosure
         url="https://github.com/acissa/NewRelicMonitor-Releases/releases/download/v2.1.0/NewRelicMonitor-v2.1.0-unsigned.zip"
-        sparkle:edSignature="Qh+8b3INV0pGGGV0d2qyF0C3+pe5nrIQFQ2NaVwTmC23dBpInAcnmjYsOsAiDbavIrpFD4tsAEHMeJ5pitfBBA=="
+        sparkle:edSignature="AL23N6RlMeSqHSBCWilsIuh1BxWAbMwb2LbpIswgP23TQA5bCOi5yyut3XgGCb07tv7BmN2VhwCKJMpGlzmsDQ=="
         length="2889920"
         type="application/octet-stream" />
     </item>
