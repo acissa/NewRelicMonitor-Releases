@@ -7,6 +7,31 @@
     <language>en</language>
 
     <item>
+      <title>Version 2.4.0</title>
+      <pubDate>Thu, 13 Aug 2026 23:35:25 +0000</pubDate>
+      <sparkle:version>20400</sparkle:version>
+      <sparkle:shortVersionString>2.4.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h2>What's New in v2.4.0</h2>
+        <ul>
+          <li>Alert snooze (1h/8h/24h) and quiet hours with critical-alert override</li>
+          <li>Launch at Login and configurable refresh interval</li>
+          <li>Copy alerts as Markdown; notification history in the activity feed</li>
+          <li>Fixes a freeze caused by a settings-change deadlock in v2.3.0</li>
+          <li>Sparkle updater security update (2.9.5)</li>
+        </ul>
+      ]]></description>
+      <enclosure 
+        url="https://github.com/acissa/NewRelicMonitor-Releases/releases/download/v2.4.0/NewRelicMonitor-v2.4.0-unsigned.zip"
+        sparkle:edSignature="WcG2BrNIhcDlAdBEHhxiP+joC/FDjAyg18HdTijJZdJzVC2eBUux6OXuivdkvp6lz/2tuslsCpjvt3wM/y+qCQ=="
+        length="3102845"
+        type="application/octet-stream" />
+    </item>
+
+
+
+    <item>
       <title>Version 2.3.0</title>
       <pubDate>Mon, 13 Jul 2026 18:38:35 +0000</pubDate>
       <sparkle:version>20300</sparkle:version>
