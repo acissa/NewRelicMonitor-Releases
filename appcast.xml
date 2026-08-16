@@ -7,6 +7,49 @@
     <language>en</language>
 
     <item>
+      <title>Version 2.5.0</title>
+      <pubDate>Sun, 16 Aug 2026 01:59:15 +0000</pubDate>
+      <sparkle:version>20500</sparkle:version>
+      <sparkle:shortVersionString>2.5.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h2>What's New in v2.5.0</h2>
+        <h3>Compared to Last Week</h3>
+        <ul>
+          <li>APM entity details now show each metric against the same window an hour, a day, or a week earlier</li>
+          <li>A 1h / 24h / 1w picker chooses the comparison; 1w is the default because it accounts for day-of-week traffic</li>
+          <li>Knows each metric's polarity &mdash; rising response time is bad, rising Apdex is good</li>
+          <li>Changes under 10% read as "normal"; an empty earlier window reports "no baseline" instead of a false regression</li>
+        </ul>
+        <h3>Transactions (last hour)</h3>
+        <ul>
+          <li>Per-endpoint breakdown ranked by "Most Time" (duration &times; call count) or "Slowest" (highest average)</li>
+          <li>Switching rankings is instant &mdash; both come from a single query</li>
+        </ul>
+        <h3>Bug Fixes</h3>
+        <ul>
+          <li>The menu bar "Preferences..." item did nothing when clicked</li>
+          <li>&#8984;, now opens Preferences</li>
+          <li>The Preferences "Cancel" button reverted nothing outside the API tab, and is now "Close"</li>
+          <li>First-run setup had no way out if you did not have an API key yet</li>
+          <li>Invalid API keys failed with a misleading "40+ characters" message</li>
+        </ul>
+        <h3>Documentation</h3>
+        <ul>
+          <li>Removed help content for shortcuts and features that were never implemented</li>
+          <li>Documented alert suppression, quiet hours, Copy as Markdown, launch at login, and the APM detail sections</li>
+        </ul>
+        <p>No configuration changes required. All existing settings, API keys, and suppressions are preserved.</p>
+      ]]></description>
+      <enclosure
+        url="https://github.com/acissa/NewRelicMonitor-Releases/releases/download/v2.5.0/NewRelicMonitor-v2.5.0-unsigned.zip"
+        sparkle:edSignature="fR5ZV8LvWG4Ifbjn0xKvococsVXQZThBT+QI/h78pRt0msyTDIremuBK0RKRrnCan8WlRpN9asH1PQRH/QfgDA=="
+        length="3216549"
+        type="application/octet-stream" />
+    </item>
+
+
+    <item>
       <title>Version 2.4.0</title>
       <pubDate>Thu, 13 Aug 2026 23:35:25 +0000</pubDate>
       <sparkle:version>20400</sparkle:version>
