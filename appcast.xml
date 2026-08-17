@@ -7,6 +7,47 @@
     <language>en</language>
 
     <item>
+      <title>Version 2.6.0</title>
+      <pubDate>Mon, 17 Aug 2026 15:48:09 +0000</pubDate>
+      <sparkle:version>20600</sparkle:version>
+      <sparkle:shortVersionString>2.6.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h2>What's New in v2.6.0</h2>
+        <p><strong>Please note: some numbers change in this release, because they were wrong before.</strong>
+        If you have been reading response times or Apdex scores out of this app, the values you see now
+        will differ from last week's. The new ones match New Relic; the old ones did not.</p>
+        <h3>Corrected numbers</h3>
+        <ul>
+          <li><strong>Response time was understated 1000&times;</strong> &mdash; New Relic reports these durations in seconds and the app formatted them as milliseconds, so an application averaging 80 ms displayed as "0.080 ms"</li>
+          <li><strong>Apdex was always scored against 0.5s</strong>, whatever the entity was configured with &mdash; a synthetic monitor set to 7s was scored as if every check had failed</li>
+          <li>A service that went from no errors to some errors was shown a green "+100% improvement" badge</li>
+          <li>Trend badges flapped on near-zero error rates; changes too small to matter now read as stable</li>
+          <li>The trend headline showed the latest sample rather than the window average, so a service averaging 2 rpm could read "0.0 rpm"</li>
+          <li>Units that never scaled &mdash; a 103-second average displayed as "103900.9 ms"</li>
+          <li>Background applications displayed "0.000 ms" instead of their real duration</li>
+          <li>Apdex read "1.0" on cards and "0.99" in the detail pane for the same entity</li>
+        </ul>
+        <h3>Browser, Synthetic, and Infrastructure entities now show metrics</h3>
+        <ul>
+          <li>Selecting one of these previously showed no performance metrics at all &mdash; the code existed but was gated to APM applications, so it could never run</li>
+          <li>Infrastructure hosts report CPU, memory, and network as their own metrics, rather than a CPU percentage labelled "Response Time" and formatted as milliseconds</li>
+        </ul>
+        <h3>Recent Activity</h3>
+        <ul>
+          <li>The clock icon in the header opens delivered and muted notifications, so you can review what quiet hours or a suppression kept from you</li>
+        </ul>
+        <p>No configuration changes required. All existing settings, API keys, and suppressions are preserved.</p>
+      ]]></description>
+      <enclosure
+        url="https://github.com/acissa/NewRelicMonitor-Releases/releases/download/v2.6.0/NewRelicMonitor-v2.6.0-unsigned.zip"
+        sparkle:edSignature="z4DssCj9TWbt4Be8k2iuuyBwytTO072jsdH5xKzAtXuB8Lb/x7toR7H+0KnPflaLPnrSRoStXdIbMJGeJPA3BA=="
+        length="3273040"
+        type="application/octet-stream" />
+    </item>
+
+
+    <item>
       <title>Version 2.5.0</title>
       <pubDate>Sun, 16 Aug 2026 01:59:15 +0000</pubDate>
       <sparkle:version>20500</sparkle:version>
