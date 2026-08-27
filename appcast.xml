@@ -14,8 +14,19 @@
       <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
         <h2>What's New in v2.7.1</h2>
+        <p>Some monitored applications showed a healthy summary — throughput, response time, Apdex — while everything below it stayed empty. <strong>"Historical Performance Trends"</strong> read <em>"Trends paused for this entity"</em>, and <strong>"Compared to Last Week"</strong> read <em>"No Transaction events for this entity — nothing to compare"</em>. The same application charted normally in New Relic's own UI.</p>
+        <p>Both messages were wrong. Those applications do have data; the app was asking for it the wrong way.</p>
+        <h3>What changed</h3>
         <ul>
-          <li>See GitHub release notes for details</li>
+          <li>Applications that report no Transaction events now fall back to <strong>metric timeslice data</strong> — the same source New Relic's own APM charts read — so trends and the week-over-week comparison populate instead of reporting "no data"</li>
+          <li>Response time, error rate, throughput, and Apdex all have timeslice equivalents; values now agree with the New Relic dashboard</li>
+          <li>Fixed an entity metadata query that failed to decode for every entity, which had silently dropped the application-ID and name filters from every query the app makes</li>
+          <li>Affected entities are no longer put into a trends quarantine, so <strong>"Trends paused"</strong> and its retry countdown stop appearing for them</li>
+        </ul>
+        <h3>Notes</h3>
+        <ul>
+          <li>The fallback runs only for APM applications whose Transaction data is genuinely missing, so applications that already worked issue no additional queries</li>
+          <li>No configuration changes required. All existing settings, API keys, and suppressions are preserved.</li>
         </ul>
       ]]></description>
       <enclosure 
