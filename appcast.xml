@@ -7,6 +7,26 @@
     <language>en</language>
 
     <item>
+      <title>Version 2.7.1</title>
+      <pubDate>Thu, 27 Aug 2026 17:27:39 +0000</pubDate>
+      <sparkle:version>20701</sparkle:version>
+      <sparkle:shortVersionString>2.7.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h2>What's New in v2.7.1</h2>
+        <ul>
+          <li>See GitHub release notes for details</li>
+        </ul>
+      ]]></description>
+      <enclosure 
+        url="https://github.com/acissa/NewRelicMonitor-Releases/releases/download/v2.7.1/NewRelicMonitor-v2.7.1-unsigned.zip"
+        sparkle:edSignature="4MEXmC/fzxCipDaT0YnZlEA9MJZUuRUAwOMMC6QHX2J13eh59q0LH7YAygDa+Bk6h2uV+APQRVY14bGqjg4MAw=="
+        length="3386743"
+        type="application/octet-stream" />
+    </item>
+    
+
+    <item>
       <title>Version 2.7.0</title>
       <pubDate>Wed, 26 Aug 2026 19:01:52 +0000</pubDate>
       <sparkle:version>20700</sparkle:version>
