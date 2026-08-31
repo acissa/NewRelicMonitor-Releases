@@ -7,6 +7,36 @@
     <language>en</language>
 
     <item>
+      <title>Version 2.7.2</title>
+      <pubDate>Mon, 31 Aug 2026 18:17:36 +0000</pubDate>
+      <sparkle:version>20702</sparkle:version>
+      <sparkle:shortVersionString>2.7.2</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h2>What's New in v2.7.2</h2>
+        <p>The <strong>Throughput</strong> chart under "Historical Performance Trends" read higher than the same application's throughput in New Relic — <em>323K rpm</em> against New Relic's <em>258K</em> for one service — while the summary card directly above the chart showed the New Relic figure. Two numbers, one label, a 25% gap.</p>
+        <p>New Relic's APM throughput chart is labelled <strong>"Web throughput"</strong>: it counts web transactions. This app counted every transaction, including background and non-web work, so any service with significant background processing read high.</p>
+        <h3>What changed</h3>
+        <ul>
+          <li>Throughput trends and the week-over-week comparison now count <strong>web transactions only</strong>, matching both New Relic's APM chart and the summary on each entity card</li>
+          <li>Applications with no web traffic — background workers, queue consumers — still report their full transaction rate rather than a misleading <em>"0 rpm"</em></li>
+          <li>Browser applications are unaffected, and their trend panels load faster than in 2.7.1</li>
+        </ul>
+        <h3>Notes</h3>
+        <ul>
+          <li>Response time and error rate still count <strong>all</strong> transactions, so those two may still read differently from New Relic's web-only figures</li>
+          <li>No configuration changes required. All existing settings, API keys, and suppressions are preserved.</li>
+        </ul>
+      ]]></description>
+      <enclosure 
+        url="https://github.com/acissa/NewRelicMonitor-Releases/releases/download/v2.7.2/NewRelicMonitor-v2.7.2-unsigned.zip"
+        sparkle:edSignature="70+4qlpfwUNaMHzwjFzQVVmuuWWm1+aiF0hlBkEuNfZp1R17O6JiycjjqD6DOK6sW/sASGmmE1+iBrvY3uovDA=="
+        length="3391826"
+        type="application/octet-stream" />
+    </item>
+    
+
+    <item>
       <title>Version 2.7.1</title>
       <pubDate>Thu, 27 Aug 2026 17:27:39 +0000</pubDate>
       <sparkle:version>20701</sparkle:version>
